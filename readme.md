@@ -1,4 +1,4 @@
-# 🎯 Exercice Grid CSS - Positionnement avec `grid-column`
+# 🎯 Exercice 1 Grid CSS - Positionnement avec `grid-column`
 
 ## 📚 Objectif
 
@@ -23,7 +23,7 @@ Apprendre à utiliser **CSS Grid** pour positionner les éléments dans une gril
 - Item 3 dans la 4ème colonne
 - Item 4 sur toute la ligne suivante, de la colonne 2 à 4
 
-# 🧱 Exercice CSS Grid – Mise en page avec `grid-template-areas`
+# 🧱 Exercice 2 CSS Grid – Mise en page avec `grid-template-areas`
 
 ## 📚 Objectif
 
