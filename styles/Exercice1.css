@@ -1,0 +1,52 @@
+/* Style global du body */
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f4f4f4; /* Gris clair */
+}
+
+/* Titre centré */
+h1 {
+  text-align: center;
+}
+
+/* Conteneur de la grille */
+.grid-container {
+  display: grid; /* Active CSS Grid */
+  grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+  gap: 10px; /* Espacement entre les items */
+  padding: 20px;
+  background-color: white; /* Fond blanc */
+}
+
+/* Style commun à tous les items */
+.item {
+  background-color: #3498db; /* Bleu */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+/* Positionnement des éléments avec grid-column */
+
+/* Item 1 occupe uniquement la première colonne */
+.item1 {
+  grid-column: 1 / 2;
+}
+
+/* Item 2 s'étale de la colonne 2 à 4 (colonne 2 + 3) */
+.item2 {
+  grid-column: 2 / 4;
+}
+
+/* Item 3 est placé dans la 4ème colonne */
+.item3 {
+  grid-column: 4 / 5;
+}
+
+/* Item 4 est placé en ligne suivante, de la colonne 2 à 4 */
+.item4 {
+  grid-column: 2 / 5;
+}
